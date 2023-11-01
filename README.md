@@ -8,4 +8,10 @@
 
 - Now, a compiled language is a language where the translation from high-level language to machine code happens one time before you execute the code, before you deploy the code, happens one time, okay? So, like in C, C++, Go, Java partially, there's a compiler, and you compile the code.
 
-- So, the idea behind a compiled languages, the key thing we want to bring out anyway is the fact that this translation occurs once, it doesn't occur while you're running the code, right? 
+- So, the idea behind a compiled languages, the key thing we want to bring out anyway is the fact that this translation occurs once, it doesn't occur while you're running the code, right?
+
+- So, the other way to do this is interpreted, interpretation. In interpreted language what happens is, instructions are translated while the code is executed.
+
+- So, in addition to actually executing the instruction, you've got to do this translation from the instruction into the equivalent machine code, so that slows you down. So, the translation occurs every time you run the Python code, say or Java, the Java byte code.
+
+- One big difference you can see is, its compiled code is generally faster to execute, that's because you don't have to do the translation every time you run the code, so it is going to be faster. 
