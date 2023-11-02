@@ -17,3 +17,9 @@
 - One big difference you can see is, its compiled code is generally faster to execute, that's because you don't have to do the translation every time you run the code, so it is going to be faster. 
 
 - So, the thing about interpreters is that, the interpreter itself, that program that is doing the translation of your code, it can help you, it can handle things that you, as a programmer, don't want to handle. For instance, in Python, I don't have to declare my variable types. I can just start using a variable and the interpreter will say, "It looks like he's using it as an integer, make it an integer." So, that's something that the programmer doesn't have to think about. 
+
+- Another thing that interpreters commonly often have is memory management. 
+
+- that is when you're done using an object, you want to get rid of that, de-allocate it from memory, and that happens automatically in an interpreted language, so the interpreter handles that. So, that's a good thing about interpreters. 
+
+- It's a compiled language, but it has some of the good features of interpreted language, specifically it has garbage collection. So, garbage collection is the automatic memory management.
