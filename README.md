@@ -23,3 +23,8 @@
 - that is when you're done using an object, you want to get rid of that, de-allocate it from memory, and that happens automatically in an interpreted language, so the interpreter handles that. So, that's a good thing about interpreters. 
 
 - It's a compiled language, but it has some of the good features of interpreted language, specifically it has garbage collection. So, garbage collection is the automatic memory management.
+
+- So, Go has a garbage collection code included, so when it compiles your code, it also compiles garbage collection into your code automatically, and this is typically only done by interpreter. 
+
+- So, this is a compiled language that actually has garbage collection, which is a really good feature. Now, downside is that it slows down execution a bit, but it's an efficient garbage collector, so it doesn't slow down much and you get a lot of advantage of having this automatic garbage collection.
+
