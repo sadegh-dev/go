@@ -28,3 +28,13 @@
 
 - So, this is a compiled language that actually has garbage collection, which is a really good feature. Now, downside is that it slows down execution a bit, but it's an efficient garbage collector, so it doesn't slow down much and you get a lot of advantage of having this automatic garbage collection.
 
+
+# Go Tools
+
+### go build : compiles the program
+
+- arguments can be a list of packages or a list of .go files
+- creates an executable for the main packages, same name as the first .go file
+- .exe suffix for executable in windows
+
+
