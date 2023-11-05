@@ -31,10 +31,19 @@
 
 # Go Tools
 
-### go build : compiles the program
+### go build - compiles the program
 
 - arguments can be a list of packages or a list of .go files
 - creates an executable for the main packages, same name as the first .go file
 - .exe suffix for executable in windows
+
+
+### go doc - prints documentation for a package 
+
+
+### go fmt - formats source code files
+
+
+### go get - downloads packages and installs them
 
 
