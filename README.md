@@ -54,3 +54,19 @@
 
 
 ### go test - runs tests using files ending in _test.go
+
+
+
+
+# variables
+
+- all variables must have declarations by name and type.
+like : var x int
+
+
+
+
+
+
+
+
