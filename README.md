@@ -64,6 +64,9 @@
 like : var x int
 
 
+## variable Scope
+
+- the places in code where a variable can be accessed.
 
 
 
