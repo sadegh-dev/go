@@ -1,5 +1,8 @@
 # go
 
+- https://www.w3schools.com/go/
+
+
 - Simpler objects, now this could be an advantage or disadvantage, but the idea is that Go is essentially object oriented although, some might disagree, but it has this concept of objects, and these objects are generally, the object orientation is a little simplified as compared to other languages. So, this is good, it makes it easier to code.
 
 - Go is actually a simpler object-oriented implementation than you would see in other languages like C++.
@@ -28,6 +31,13 @@
 
 - So, this is a compiled language that actually has garbage collection, which is a really good feature. Now, downside is that it slows down execution a bit, but it's an efficient garbage collector, so it doesn't slow down much and you get a lot of advantage of having this automatic garbage collection.
 
+
+### A Go file consists of the following parts:
+
+- Package declaration
+- Import packages
+- Functions
+- Statements and expressions
 
 # Go Tools
 
@@ -64,9 +74,12 @@
 like : var x int
 
 
-## variable Scope
+### variable Scope
 
 - the places in code where a variable can be accessed.
+
+### Notes :
+ - variable initialization is not done outside the function
 
 
 
