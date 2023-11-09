@@ -4,7 +4,11 @@ import (
 	"fmt"
 )
 
-var name string
+var (
+	name     string
+	age      int
+	is_admin bool
+)
 
 func main() {
 	name = "charlie"
