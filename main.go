@@ -5,13 +5,16 @@ import (
 )
 
 var (
-	name     string
-	age      int
-	is_admin bool
+	name string
+	//age      int
+	//is_admin bool
 )
 
 func main() {
 	name = "charlie"
-	fmt.Println("Hello World!")
+
 	fmt.Println(name)
+	//fmt.Println(*name)
+	fmt.Println(&name)
+
 }
