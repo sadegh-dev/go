@@ -1,5 +1,21 @@
 # go
 
+
+#### pointers :
+
+- '&' The ampersand operator right there, that returns the address of the variable or the function, whatever the name is referring to .
+- '*' : If you put that in front of a Pointer, to some address, it will return you the data at that address.
+- this ampersand operator and the star operator are opposites of one another.
+
+
+
+
+
+
+
+
+
+
 - https://www.w3schools.com/go/
 
 
