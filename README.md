@@ -1,6 +1,12 @@
 # go
 
 
+- Go code is organized into packages to allow you to share. So, big point of Go is sharing with other people and you can trade your code with other people.
+
+
+
+#### ------------------------------------------------------------------
+
 #### pointers :
 
 - '&' The ampersand operator right there, that returns the address of the variable or the function, whatever the name is referring to .
