@@ -3,6 +3,35 @@
 
 - Go code is organized into packages to allow you to share. So, big point of Go is sharing with other people and you can trade your code with other people.
 
+- Go is essentially o[bject oriented] although, some might disagree, but it has this concept of objects, and these objects are generally, the object orientation is a little simplified as compared to other languages.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #### ------------------------------------------------------------------
