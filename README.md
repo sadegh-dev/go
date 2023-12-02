@@ -3,35 +3,19 @@
 
 - Go code is organized into packages to allow you to share. So, big point of Go is sharing with other people and you can trade your code with other people.
 
-- Go is essentially o[bject oriented] although, some might disagree, but it has this concept of objects, and these objects are generally, the object orientation is a little simplified as compared to other languages.
+- Go is essentially object oriented although, some might disagree, but it has this concept of objects, and these objects are generally, the object orientation is a little simplified as compared to other languages.
 
 
 
+- languages in general, differences between languages.So, I've got these three :
+1- machine language : that is the lowest level language and it's directly executed on the CPU, on the processor.
+2- Assembly language : assembly language is basically one-to-one mapping to machine language not completely, but very close. So, fundamentally they're the same complexity.
+3- high-level language : A high-level language is a language that essentially humans commonly use to program in. They are much easier to use than assembly language or machine language. They provide you with lots of abstractions that any program would be used to, for instance variables, Assembly language and machine language do not have variables .
+
+- Go is of course a high-level language in this set of three categories.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+...
 
 
 #### ------------------------------------------------------------------
@@ -135,5 +119,32 @@ like : var x int
 
 
 
+
+
+## week 3
+
+
+##### M0
+
+- composite data types are data types that aggregate other data types together
+
+- an array in general, is just where you take a bunch of a fixed-length series of elements of a chosen type.
+So, you can make an array of bytes, you can make an array of integers, an array of floats, and so on.
+
+- that's how you declare an array, That would be initialized to zeros by default.
+
+
+- range function
+
+code(
+
+    x := [3]int {7,8,9}
+    //or
+    x := [...]int {7,8,9}
+
+    for i,v range x {
+        fmt.Printf("index: %d, value: %d", i, v)
+    }
+)
 
 

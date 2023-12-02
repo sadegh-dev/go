@@ -2,24 +2,45 @@ package main
 
 import (
 	"fmt"
+	"runtime"
+	"time"
 )
 
-var (
-	co int
-)
+func compare(x, y int) string {
+
+	var result string
+	if x > y {
+		result = "x greater than y"
+	} else if x < y {
+		result = "x smaller than y"
+	} else {
+		result = "x and y in same"
+	}
+	return result
+
+}
+
+func checkOS() string {
+
+	return runtime.GOOS
+
+}
+
+func timeChecker() int {
+	return time.Now().Hour()
+}
 
 func main() {
-	co = 20
-	switch co {
-	case 1:
-		fmt.Println("case 1")
-	case 2:
-		fmt.Println("case 2")
-	case 3:
-		fmt.Println("case 3")
-	default:
-		fmt.Println("default is done.")
+	var (
+		name string
+	)
+	name = "charlie"
+	fmt.Println(name)
 
-	}
+	t := compare(50, 50)
+	fmt.Println(t)
+
+	fmt.Println(checkOS())
+	fmt.Println(timeChecker())
 
 }
