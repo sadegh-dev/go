@@ -10,5 +10,5 @@ var (
 
 func main() {
 	avg := 18
-	fmt.Printf("%X \n", avg)
+	fmt.Printf("Hello %X \n", avg)
 }

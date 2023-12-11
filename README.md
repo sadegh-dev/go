@@ -1,5 +1,17 @@
 # go
 
+#### module maintenance
+
+###### create new package
+- go mod init NewModuleName
+
+###### compile packages and dependencies
+- go build fileName
+
+###### compile and run Go program
+- go run fileName
+
+
 
 - Go code is organized into packages to allow you to share. So, big point of Go is sharing with other people and you can trade your code with other people.
 
